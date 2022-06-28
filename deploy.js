@@ -2,9 +2,11 @@ const HDWalletProvider = require("@truffle/hdwallet-provider");
 const Web3 = require("web3");
 const { interface, bytecode } = require("./compile");
 
+// FOCUS HERE :-
 const provider = new HDWalletProvider(
-  "over access prize copy engine common exclude park bundle ski dignity pluck",
-  "https://rinkeby.infura.io/v3/d61b6c5087974edbbfe6aef7bd77c99c"
+  // Change these parameters
+  "Your metamask Mnemonic for testing",
+  "Your Infura Key"
 );
 
 const web3 = new Web3(provider);
